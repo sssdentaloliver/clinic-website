@@ -11,15 +11,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-white/10">
           {/* Brand */}
           <div className="space-y-3">
-            <div className="flex items-center gap-2">
-              <div className="h-9 w-9 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center text-white font-bold text-xl">
-                S
-              </div>
-              <span className="text-base sm:text-lg font-semibold">
-                SSS Dental Oliver
-              </span>
-            </div>
-            <p className="text-sm text-gray-300 leading-relaxed max-w-xs">
+            <Link href="/" className="flex-shrink-0">
+            <img
+              src="/logo.png"
+              alt="SSS Dental Oliver"
+              className="h-14 w-auto max-w-[300px]"
+            />
+          </Link>
+            <p className="text-sm text-gray-300 pl-4 leading-relaxed max-w-xs">
               Providing exceptional dental care to the Oliver community and surrounding areas.
             </p>
           </div>

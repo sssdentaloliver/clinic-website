@@ -75,6 +75,7 @@ export default function HeroSection() {
               <h3 className="text-white font-semibold text-lg mb-2">Hours</h3>
               <p className="text-blue-100 text-sm">
                 Mon-Thu: 8:30 AM - 4:30 PM
+                Friday: Special Appointments
               </p>
             </div>
 
