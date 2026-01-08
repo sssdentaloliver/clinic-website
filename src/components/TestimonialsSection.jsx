@@ -3,16 +3,16 @@
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      text: "Dr. Singh and his team are absolutely wonderful! They made me feel comfortable throughout my entire treatment. Highly recommend!",
+      name: 'Karen',
+      text: "I really like Dr.Singh. He is caring and considerate. I am a very nervous patient requiring sedatives for dental work. Dr.Singh and his assistants make me as comfortable as possible. Bree at the front desk is friendly and efficient. Always taking care of your needs no matter how busy she is. I will be staying with Main St Dental.",
     },
     {
-      name: 'Michael Peterson',
-      text: "Best dental experience I've ever had. The clinic is modern, clean, and the staff is very professional. My family and I are grateful for their excellent care.",
+      name: 'Paul Bulbeck',
+      text: "Doctor Singh, his assistants and his receptionist were great. They couldn't have been more friendly, helpful and accommodating. We would have stayed if we hadn't of moved. We hope our next dentist is like him.",
     },
     {
-      name: 'Emily Rodriguez',
-      text: "I was nervous about visiting the dentist, but Dr. Singh's gentle approach and clear explanations put me at ease. The results exceeded my expectations!",
+      name: 'Rena Armstrong',
+      text: "I really can not say enough good things about this Doctor and the staff. It’s a very rare thing to have someone care the way Doctor S does. He’s kind and patient and cares about my pain. He had to help me in the middle of his holiday so I also thank his wife and little girl for sharing him. Front desk staff… AMAZING! I really can’t thank everyone enough. Best medical experience I’ve had in years. Love you all.",
     },
   ];
 
