@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="space-y-3">
             <Link href="/" className="flex-shrink-0">
             <img
-              src="/logo.png"
+              src="/logooo.png"
               alt="SSS Dental Oliver"
               className="h-14 w-auto max-w-[300px]"
             />
