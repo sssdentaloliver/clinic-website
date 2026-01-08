@@ -21,7 +21,7 @@ export default function DoctorSection() {
           {/* Doctor Image */}
           <div className="relative rounded-3xl overflow-hidden shadow-xl h-[400px] lg:h-[500px]">
             <Image
-              src="/doctor-image.jpg"
+              src="/doctor-imageee.png"
               alt="Dr. Sukhwinder Singh"
               fill
               className="object-cover"
