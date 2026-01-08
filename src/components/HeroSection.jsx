@@ -37,11 +37,11 @@ export default function HeroSection() {
             Comprehensive dental care for the whole family in Oliver, BC.
           </p>
           <p className="text-white text-lg sm:text-xl mb-10 leading-relaxed">
-            Experience excellence in dentistry with Dr. Sukhwinder Singh.
+            Experience excellence in dentistry with Dr. Daniel Ng and <br />Dr. Sukhwinder Singh.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a
               href="#appointment"
               className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-teal-500 to-cyan-500 text-white font-semibold rounded-full hover:from-teal-600 hover:to-cyan-600 transition-all shadow-lg hover:shadow-xl"
