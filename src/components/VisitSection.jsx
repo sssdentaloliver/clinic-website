@@ -14,6 +14,12 @@ export default function VisitSection() {
           <p className="text-base sm:text-lg text-gray-600">
             Find us in the heart of Oliver, BC
           </p>
+          <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base text-gray-600">
+            SSS Dental Oliver is a modern dental clinic located in Oliver,
+            providing quality dental care including root canal treatment,
+            cosmetic dentistry, teeth whitening, and preventive oral healthcare.
+            Our clinic serves patients from Oliver and nearby areas.
+          </p>
         </div>
 
         {/* Content */}

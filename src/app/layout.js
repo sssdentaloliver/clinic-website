@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SSS Dental Oliver",
-  description: "Your Smile, Our Priority - SSS Dental Oliver",
+  title: "SSS Dental Oliver | Best Dental Clinic in Oliver ",
+  description: "SSS Dental Oliver is a trusted dental clinic in Oliver offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. Book an appointment today.",
 };
 
 export default function RootLayout({ children }) {
