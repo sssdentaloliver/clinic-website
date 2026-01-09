@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://www.sssdentaliver.com";
+  const baseUrl = "https://www.sssdentaloliver.com";
 
   return [
     {
