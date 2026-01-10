@@ -77,6 +77,9 @@ export default function OperatingHoursSection() {
           <p className="text-gray-600 text-sm">
             For emergency appointments or special requests, please call us directly
           </p>
+          <p className="text-black text-md font-bold">
+            CLOSED ON ALL STATUTORY HOLIDAYS
+          </p>
         </div>
       </div>
     </section>

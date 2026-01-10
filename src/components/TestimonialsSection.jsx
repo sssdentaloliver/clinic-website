@@ -4,15 +4,15 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       name: 'Karen',
-      text: "I really like Dr.Singh. He is caring and considerate. I am a very nervous patient requiring sedatives for dental work. Dr.Singh and his assistants make me as comfortable as possible. Bree at the front desk is friendly and efficient. Always taking care of your needs no matter how busy she is. I will be staying with Main St Dental.",
+      text: "I really like Dr.Singh. He is caring and considerate. I am a very nervous patient requiring sedatives for dental work. Dr.Singh and his assistants make me as comfortable as possible.....",
     },
     {
       name: 'Paul Bulbeck',
-      text: "Doctor Singh, his assistants and his receptionist were great. They couldn't have been more friendly, helpful and accommodating. We would have stayed if we hadn't of moved. We hope our next dentist is like him.",
+      text: "Doctor Singh, his assistants and his receptionist were great. They couldn't have been more friendly, helpful and accommodating. We would have stayed if we hadn't of moved. We hope......",
     },
     {
       name: 'Rena Armstrong',
-      text: "I really can not say enough good things about this Doctor and the staff. It’s a very rare thing to have someone care the way Doctor S does. He’s kind and patient and cares about my pain. He had to help me in the middle of his holiday so I also thank his wife and little girl for sharing him. Front desk staff… AMAZING! I really can’t thank everyone enough. Best medical experience I’ve had in years. Love you all.",
+      text: "I really can not say enough good things about Doctor Singh and the staff. It’s a very rare thing to have someone care the way Doctor S does. He’s kind and patient and cares about my pain. He had .....",
     },
   ];
 

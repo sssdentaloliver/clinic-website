@@ -21,7 +21,7 @@ export default function DoctorSection() {
           {/* Doctor Image */}
           <div className="relative rounded-3xl overflow-hidden shadow-xl h-[400px] lg:h-[500px]">
             <Image
-              src="/doctor-image.png"
+              src="/doctor.png"
               alt="Dr. Sukhwinder Singh"
               fill
               className="object-cover"
@@ -41,7 +41,7 @@ export default function DoctorSection() {
           {/* Doctor Bio */}
           <div className="bg-gray-50 rounded-3xl p-8 lg:p-10 border border-gray-200">
             <p className="text-gray-700 leading-relaxed text-base lg:text-lg">
-              Dr Sukhwinder Singh received his bachelors in Dentistry in India in 2009. He practiced and gained clinical experience in India from 2010 to 2016. In 2017 he moved to Canada to pursue his career here. He successfully fulfilled all Canadian Dental Licensing Requirements from 2017 to 2021 and has been serving local community since then. In 2025 he got the opportunity to carry forward Dr Daniel Ng's Mission and long established legacy of serving local community in Oliver and surrounding areas by taking over his practice operations. He is still actively learning to improve and further polish his skills on ongoing basis to remain upto date and serve his clients to the best of the best
+              Dr Sukhwinder Singh received his bachelors in Dentistry in 2009. He practiced and gained foreign clinical experience from 2010 to 2016 and started Practicing in Okanagan Region in 2022 and has been serving local community since then. In 2025 he got the opportunity to carry forward Dr Daniel Ng's Mission and long established legacy of serving local community in Oliver and surrounding areas by taking over his practice operations. He is an active member of BCDA (British Columbia Dental Association). He is still actively learning to improve and further polish his skills on ongoing basis to remain upto date and serve his clients to the best of the best.
             </p>
           </div>
         </div>
