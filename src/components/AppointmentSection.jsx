@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { Calendar } from 'lucide-react';
 
 export default function AppointmentSection() {
   const [formData, setFormData] = useState({
@@ -15,6 +16,8 @@ export default function AppointmentSection() {
   });
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+
+  const akituOneLink = "https://sssdentaloliver.akituone.cloud/online-booking/sss-dental-oliver"; // Replace with actual booking link
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -54,6 +57,84 @@ export default function AppointmentSection() {
           <p className="text-base sm:text-lg text-gray-600">
             Take the first step towards a healthier smile
           </p>
+        </div>
+
+        {/* Akitu One Booking Section */}
+        <div className="mb-12">
+          <div className="relative w-full max-w-4xl mx-auto">
+            {/* Gradient Background */}
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-3xl blur-xl opacity-20"></div>
+            
+            {/* Glass Container */}
+            <div className="relative bg-white/40 backdrop-blur-xl rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl border border-white/50">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8">
+                
+                {/* Left Section - Text */}
+                <div className="flex-1 space-y-2 text-center md:text-left">
+                  <div className="inline-block">
+                    <Calendar className="w-7 h-7 text-blue-500 mb-2 mx-auto md:mx-0" />
+                  </div>
+                  
+                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-800 ">
+                    Book on Akitu One App:
+                  </h3>
+                  <p className="text-lg sm:text-xl font-semibold bg-gradient-to-r from-red-700 to-red-400 text-transparent bg-clip-text">
+                    Canada's favourite dental software
+                  </p>
+                  
+                  <p className="text-gray-600 text-sm">
+                    Schedule your appointment easily through our modern booking system
+                  </p>
+                </div>
+
+                {/* Right Section - QR & Button */}
+                <div className="flex-shrink-0 w-full md:w-auto">
+                  {/* Glass Card for QR */}
+                  <div className="bg-gradient-to-br from-gray-100/60 to-gray-200/40 backdrop-blur-lg rounded-2xl p-5 shadow-lg border border-white/60 max-w-xs mx-auto">
+                    <div className="text-center space-y-3">
+                      
+                      
+                      {/* Button */}
+                      <a
+                        href={akituOneLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block w-full"
+                      >
+                        <button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-2.5 px-5 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl text-sm">
+                          Click To Book
+                        </button>
+                      </a>
+                      
+                      <div className="text-gray-600 font-medium text-sm">OR</div>
+                      
+                      {/* QR Code Container */}
+                      <div className="bg-white/80 backdrop-blur-sm p-3 rounded-xl shadow-inner">
+                        <img 
+                          src="qr.png" 
+                          alt="QR Code for Akitu One"
+                          className="w-40 h-40 mx-auto"
+                        />
+                      </div>
+                      
+                      <p className="text-xs text-gray-500">Scan to book instantly</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Decorative Elements */}
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-2xl"></div>
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-tr from-blue-400/20 to-cyan-400/20 rounded-full blur-2xl"></div>
+            </div>
+          </div>
+        </div>
+
+        {/* Divider with text */}
+        <div className="flex items-center gap-4 mb-10">
+          <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
+          <span className="text-sm font-medium text-gray-500">Or fill out the form below</span>
+          <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
         </div>
 
         <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
@@ -169,7 +250,7 @@ export default function AppointmentSection() {
             )}
 
             <p className="text-xs sm:text-sm text-gray-500 text-center">
-              We'll contact you within 24 hours to confirm your appointment.
+              We'll try to contact you within 24 hours to confirm your appointment.
             </p>
           </form>
         </div>
