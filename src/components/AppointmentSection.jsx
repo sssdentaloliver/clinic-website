@@ -63,7 +63,7 @@ export default function AppointmentSection() {
         <div className="mb-12">
           <div className="relative w-full max-w-4xl mx-auto">
             {/* Gradient Background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-3xl blur-xl opacity-20"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-800 via-blue-400 to-pink-200 rounded-3xl blur-xl opacity-20"></div>
             
             {/* Glass Container */}
             <div className="relative bg-white/40 backdrop-blur-xl rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl border border-white/50">
