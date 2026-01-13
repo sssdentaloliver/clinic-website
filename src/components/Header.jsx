@@ -35,9 +35,9 @@ export default function Header() {
 
           <Link href="/" className="flex-shrink-0">
             <img
-              src="/logooo.png"
+              src="/logo.png"
               alt="SSS Dental Oliver"
-              className="h-14 w-auto max-w-[300px]"
+              className="h-14 pt-1 w-auto max-w-[300px]"
             />
           </Link>
 

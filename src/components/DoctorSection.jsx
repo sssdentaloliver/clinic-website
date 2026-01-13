@@ -41,7 +41,7 @@ export default function DoctorSection() {
           {/* Doctor Bio */}
           <div className="bg-gray-50 rounded-3xl p-8 lg:p-10 border border-gray-200">
             <p className="text-gray-700 leading-relaxed text-base lg:text-lg">
-              Dr Sukhwinder Singh received his bachelors Degree in Dentistry in 2009; he then gained foreign clinical experience Practicing from 2010 through 2016. Dr Singh moved to Okanagan Region in 2022 and has been serving local community since then. In 2025 he seized an opportunity to carry forward Dr Daniel Ng's Mission and long established legacy of serving local community of Oliver and surrounding areas by taking over his practice of operations. Dr Singh is an active member of BCDA (British Columbia Dental Association) and continuously educates himself on new techniques and practices in order to provide his clients with the most current and up-to-date techniques available in the field of dentistry. 
+              Dr Sukhwinder Singh received his Bachelors Degree in Dentistry in 2009; he then gained foreign clinical experience Practicing from 2010 through 2016. Dr Singh moved to Okanagan Region in 2022 and has been serving local community since then. In 2025 he seized an opportunity to carry forward Dr Daniel Ng's Mission and long established legacy of serving local community of Oliver and surrounding areas by taking over his practice operations. Dr Singh is an active member of BCDA (British Columbia Dental Association) and continuously educates himself on new techniques and practices in order to provide his clients with the most current and up-to-date techniques available in the field of dentistry. 
             </p>
           </div>
         </div>
