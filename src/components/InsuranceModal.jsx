@@ -37,7 +37,12 @@ export default function InsuranceModal() {
           </svg>
         </button>
         <div className="pt-16 pb-8 px-6">
+          <p className="text-center text-red-700 text-xl font-bold mb-6">
+            For payments we accept all kinds of Debit and Credit cards and Cash as well. <br />
+            We also accept all kinds of insurance along with CDCP.
+          </p>
           <img src="/cdcp.png" alt="Insurance info" className="w-full h-auto max-w-[450px] mx-auto rounded-xl shadow-sm" />
+          
         </div>
       </div>
     </div>

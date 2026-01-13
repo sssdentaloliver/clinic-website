@@ -123,7 +123,7 @@ export default function Header() {
           <div
             className={`md:hidden py-4 border-t transition-colors ${
               scrolled
-                ? "border-white/10 bg-black/70"
+                ? "border-white/10 "
                 : "border-gray-200 bg-white/90"
             }`}
           >
