@@ -19,9 +19,9 @@ export default function DoctorSection() {
         {/* Doctor Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Doctor Image */}
-          <div className="relative rounded-3xl overflow-hidden shadow-xl h-[400px] lg:h-[500px]">
+          <div className="relative rounded-3xl overflow-hidden shadow-xl h-[350px] md:h-[400px] lg:h-[500px]">
             <Image
-              src="/doctor.png"
+              src="/doctorr.webp"
               alt="Dr. Sukhwinder Singh"
               fill
               className="object-cover"
@@ -29,7 +29,7 @@ export default function DoctorSection() {
             />
             {/* Overlay with Doctor Info */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900/90 to-transparent p-8">
-              <h3 className="text-3xl font-bold text-white mb-2">
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Dr. Sukhwinder Singh
               </h3>
               <p className="text-blue-100 text-lg">
