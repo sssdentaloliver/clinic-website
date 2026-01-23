@@ -33,7 +33,7 @@ export default function DoctorSection() {
                 Dr. Sukhwinder Singh
               </h3>
               <p className="text-blue-100 text-lg">
-                Doctor of Dental Surgery
+                General Dentist
               </p>
             </div>
           </div>

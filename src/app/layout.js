@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "SSS Dental Oliver | Best Dental Clinic in Oliver ",
-  description: "SSS Dental Oliver is a trusted dental clinic in Oliver offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. Book an appointment today.",
+  description: "SSS Dental Oliver is a trusted dental clinic in Oliver offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. With expertise of Dr. Sukhwinder Singh and Dr. Daniel Ng in all aspects of dental care, we provide personalized treatment plans to meet your unique needs. 5980 Main Street, Oliver, BC V0H1T0. Book an appointment at best dental clinic in Oliver today.",
 };
 
 export default function RootLayout({ children }) {
