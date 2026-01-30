@@ -49,18 +49,18 @@ export default function AppointmentSection() {
 
   return (
     <section id="appointment" className="py-20 bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-10">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Book Your Appointment
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className=" text-center mb-10">
+          <h2 className="text-4xl  sm:text-5xl font-bold text-blue-600 mb-3">
+            Book Your Dental Appointment in Oliver, BC
           </h2>
-          <p className="text-base sm:text-lg text-gray-600">
-            Take the first step towards a healthier smile
+          <p className="text-base sm:text-lg md:text-2xl text-gray-600">
+            Schedule your visit with SSS Dental Oliver today and take the first step toward a healthier, more confident smile.
           </p>
         </div>
 
         {/* Akitu One Booking Section */}
-        <div className="mb-12">
+        <div className="max-w-4xl mx-auto mb-12">
           <div className="relative w-full max-w-4xl mx-auto">
             {/* Gradient Background */}
             <div className="absolute inset-0 bg-gradient-to-r from-blue-800 via-blue-400 to-pink-200 rounded-3xl blur-xl opacity-20"></div>
@@ -137,7 +137,7 @@ export default function AppointmentSection() {
           <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+        <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-cyan-500 px-6 sm:px-8 py-4 flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10">
               <span className="text-white text-xl">📅</span>

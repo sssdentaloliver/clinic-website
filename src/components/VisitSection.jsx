@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function VisitSection() {
   return (
@@ -8,17 +8,19 @@ export default function VisitSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
+          <h2 className="text-5xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-3">
             Visit Us
           </h2>
           <p className="text-base sm:text-lg text-gray-600">
             Find us in the heart of Oliver, BC
           </p>
-          <p className="mt-4 max-w-3xl mx-auto text-sm sm:text-base text-gray-600">
+          <p className="mt-4 max-w-5xl mx-auto text-sm sm:text-base md:text-xl text-gray-600">
             SSS Dental Oliver is a modern dental clinic located in Oliver,
-            providing quality dental care including root canal treatment,
-            cosmetic dentistry, teeth whitening, and preventive oral healthcare.
-            Our clinic serves patients from Oliver and nearby areas.
+            British Columbia, offering comprehensive dental care including root
+            canal treatment, cosmetic dentistry, teeth whitening, and preventive
+            oral healthcare. We proudly serve patients from Oliver and
+            surrounding communities, providing professional, patient-centered
+            care in a comfortable and welcoming environment.
           </p>
         </div>
 

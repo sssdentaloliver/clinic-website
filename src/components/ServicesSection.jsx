@@ -1,38 +1,51 @@
-'use client';
+"use client";
 
-import { ClipboardList, Wrench, HeartPulse, Shield, Sparkles, Users } from 'lucide-react';
+import {
+  ClipboardList,
+  Wrench,
+  HeartPulse,
+  Shield,
+  Sparkles,
+  Users,
+} from "lucide-react";
 
 export default function ServicesSection() {
   const services = [
     {
       icon: ClipboardList,
-      title: 'Comprehensive Evaluation',
-      description: 'Thorough dental examinations to assess your oral health and create personalized treatment plans.',
+      title: "Comprehensive Evaluation",
+      description:
+        "Thorough dental examinations to assess your oral health and create personalized treatment plans.",
     },
     {
       icon: Wrench,
-      title: 'Restorative Dentistry',
-      description: "Expert fillings, crowns, and bridges to restore your teeth's function and appearance.",
+      title: "Restorative Dentistry",
+      description:
+        "Expert fillings, crowns, and bridges to restore your teeth's function and appearance.",
     },
     {
       icon: HeartPulse,
-      title: 'Rehabilitative Dentistry',
-      description: 'Comprehensive rehabilitation services to restore full mouth function and aesthetics.',
+      title: "Rehabilitative Dentistry",
+      description:
+        "Comprehensive rehabilitation services to restore full mouth function and aesthetics.",
     },
     {
       icon: Shield,
-      title: 'Health Maintenance',
-      description: 'Regular cleanings and preventive care to keep your smile healthy and bright.',
+      title: "Health Maintenance",
+      description:
+        "Regular cleanings and preventive care to keep your smile healthy and bright.",
     },
     {
       icon: Sparkles,
-      title: 'Esthetic Dentistry',
-      description: 'Cosmetic procedures including whitening, veneers, and bonding for your perfect smile.',
+      title: "Esthetic Dentistry",
+      description:
+        "Cosmetic procedures including whitening, veneers, and bonding for your perfect smile.",
     },
     {
       icon: Users,
-      title: 'Family Dentistry',
-      description: 'Comprehensive dental care for patients of all ages, from children to seniors.',
+      title: "Family Dentistry",
+      description:
+        "Comprehensive dental care for patients of all ages, from children to seniors.",
     },
   ];
 
@@ -40,12 +53,15 @@ export default function ServicesSection() {
     <section id="services" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-16 md:mb-24">
+          <h2 className="text-4xl sm:text-5xl font-bold text-blue-600 mb-6">
             Our Services
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive dental care tailored to your unique needs
+          <p className="text-lg md:text-2xl text-gray-600 max-w-3xl mx-auto">
+            We offer a complete range of dental services, from emergency care to
+            comprehensive treatment, for patients in Oliver, British Columbia.
+            Our team takes the time to explain every option and answer your
+            questions, helping you achieve a healthy, confident smile.
           </p>
         </div>
 

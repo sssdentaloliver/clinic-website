@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function DoctorSection() {
   return (
@@ -8,11 +8,12 @@ export default function DoctorSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Meet Our Doctor
+          <h2 className="text-4xl sm:text-5xl font-bold text-blue-600 mb-6">
+            About Us
           </h2>
-          <p className="text-lg text-gray-600">
-            Dedicated to excellence in dental care
+          <p className="text-lg md:text-2xl text-gray-600 max-w-3xl mx-auto">
+            At SSS Dental Oliver, our dental team proudly serves patients across
+            Oliver, British Columbia with professional, patient-centered care.
           </p>
         </div>
 
@@ -32,16 +33,25 @@ export default function DoctorSection() {
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 Dr. Sukhwinder Singh
               </h3>
-              <p className="text-blue-100 text-lg">
-                General Dentist
-              </p>
+              <p className="text-blue-100 text-lg">General Dentist</p>
             </div>
           </div>
 
           {/* Doctor Bio */}
           <div className="bg-gray-50 rounded-3xl p-8 lg:p-10 border border-gray-200">
             <p className="text-gray-700 leading-relaxed text-base lg:text-lg">
-              Dr Sukhwinder Singh received his Bachelors Degree in Dentistry in 2009; he then gained foreign clinical experience Practicing from 2010 through 2016. Dr Singh moved to Okanagan Region in 2022 and has been serving local community since then. In 2025 he seized an opportunity to carry forward Dr Daniel Ng's Mission and long established legacy of serving local community of Oliver and surrounding areas by taking over his practice operations. Dr Singh is an active member of BCDA (British Columbia Dental Association) and continuously educates himself on new techniques and practices in order to provide his clients with the most current and up-to-date techniques available in the field of dentistry. 
+              Dr. Sukhwinder Singh earned his Bachelor’s Degree in Dentistry in
+              2009 and went on to gain extensive international clinical
+              experience while practicing from 2010 to 2016. In 2022, Dr. Singh
+              relocated to the Okanagan region, where he has been proudly
+              serving the local community with compassionate and comprehensive
+              dental care. In 2025, he had the honor of continuing Dr. Daniel
+              Ng’s long-standing mission and legacy of serving the residents of
+              Oliver and surrounding areas by taking over the practice
+              operations. Dr. Singh is an active member of the British Columbia
+              Dental Association (BCDA) and is committed to ongoing education,
+              ensuring his patients benefit from the latest techniques,
+              technologies, and best practices in modern dentistry.{" "}
             </p>
           </div>
         </div>

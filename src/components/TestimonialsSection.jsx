@@ -21,11 +21,11 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            What Our Patients Say
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-6">
+            What Our Patients in Oliver, BC Are Saying
           </h2>
-          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            Real experiences from our valued patients
+          <p className="text-base sm:text-lg md:text-2xl text-gray-600 max-w-2xl mx-auto">
+            Real experiences from patients who trust SSS Dental Oliver for professional, compassionate dental care in British Columbia.
           </p>
         </div>
 
