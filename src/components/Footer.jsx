@@ -114,8 +114,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="pt-4 text-center text-xs text-gray-400">
-          © 2026 SSS Dental Oliver. All rights reserved.
+        <div className="pt-4 text-center flex justify-between text-xs text-gray-400">
+          <div>© 2026 SSS Dental Oliver. All rights reserved.</div>
+          <div className='font-bold'><a href="https://www.linkedin.com/in/amritpal-singh-2088641b4/">Developed By <span className='text-yellow-300'>Amritpal Singh</span></a></div> 
         </div>
       </div>
     </footer>
