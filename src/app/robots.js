@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://sssdentaloliver.com/sitemap.xml',
+    sitemap: 'https://www.sssdentaloliver.com/sitemap.xml',
   };
 }

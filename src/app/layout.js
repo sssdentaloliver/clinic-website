@@ -13,9 +13,55 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.sssdentaloliver.com"),
+
   title: "SSS Dental Oliver | Best Dental Clinic in Oliver, BC",
-  description:
-    "SSS Dental Oliver is a trusted dental clinic in Oliver, British Columbia offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. At SSS Dental Oliver we accept all kinds of insurances including CDCP. Led by Dr. Sukhwinder Singh, we provide personalized dental care for patients in Oliver and surrounding areas. Visit us at 5980 Main Street, Oliver, BC V0H 1T0.",
+
+  description: "...",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    title: "SSS Dental Oliver",
+    description: "...",
+    url: "/",
+    siteName: "SSS Dental Oliver",
+    images: [
+      {
+        url: "/doctorr.webp",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_CA",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    images: ["/doctorr.webp"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+    },
+  },
+  keywords: [
+    "Dentist Oliver BC",
+    "Dental Clinic Oliver",
+    "Root Canal Oliver",
+    "Emergency Dentist Oliver",
+    "Cosmetic Dentistry Oliver",
+    "Teeth Cleaning Oliver",
+    "CDCP Dentist Oliver",
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -29,36 +75,40 @@ export default function RootLayout({ children }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Dentist",
-            "name": "SSS Dental Oliver",
-            "url": "https://sssdentaloliver.com",
-            "telephone": "+1-250-498-2646",
-            "logo": "https://sssdentaloliver.com/logo.png",
-            "image": "https://sssdentaloliver.com/doctorr.webp",
-            "address": {
+            name: "SSS Dental Oliver",
+            url: "https://www.sssdentaloliver.com",
+            telephone: "+1-250-498-2646",
+            logo: "https://www.sssdentaloliver.com/logo.png",
+            image: ["https://www.sssdentaloliver.com/doctorr.webp"],
+            "@id": "https://www.sssdentaloliver.com/#dentist",
+
+            priceRange: "$$",
+            email: "info@sssdentaloliver.com",
+            areaServed: "Oliver",
+            hasMap: "https://www.google.com/maps/place/SSS+Dental+Oliver",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "5980 Main Street",
-              "addressLocality": "Oliver",
-              "addressRegion": "BC",
-              "postalCode": "V0H 1T0",
-              "addressCountry": "CA"
+              streetAddress: "5980 Main Street",
+              addressLocality: "Oliver",
+              addressRegion: "BC",
+              postalCode: "V0H 1T0",
+              addressCountry: "CA",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": "49.17973",
-              "longitude": "-119.55191"
+              latitude: "49.17973",
+              longitude: "-119.55191",
             },
-            "openingHoursSpecification": [
+            openingHoursSpecification: [
               {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                "opens": "08:30",
-                "closes": "16:30"
-              }
+                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
+                opens: "08:30",
+                closes: "16:30",
+              },
             ],
-            "sameAs": [
-              "https://www.google.com/maps/place/SSS+Dental+Oliver"
-            ]
-          })
+            sameAs: ["https://www.google.com/maps/place/SSS+Dental+Oliver"],
+          }),
         }}
       />
 
