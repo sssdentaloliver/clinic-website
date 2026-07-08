@@ -17,7 +17,7 @@ export const metadata = {
 
   title: "SSS Dental Oliver | Best Dental Clinic in Oliver, BC",
 
-  description: "...",
+  description: "SSS Dental Oliver is a trusted dental clinic in Oliver, British Columbia offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. At SSS Dental Oliver we accept all kinds of insurances including CDCP. Led by Dr. Sukhwinder Singh, we provide personalized dental care for patients in Oliver and surrounding areas. Visit us at 5980 Main Street, Oliver, BC V0H 1T0.",
 
   alternates: {
     canonical: "/",
@@ -25,7 +25,7 @@ export const metadata = {
 
   openGraph: {
     title: "SSS Dental Oliver",
-    description: "...",
+    description: "SSS Dental Oliver is a trusted dental clinic in Oliver, British Columbia offering root canal treatment, cosmetic dentistry, teeth cleaning, and complete oral care. At SSS Dental Oliver we accept all kinds of insurances including CDCP. Led by Dr. Sukhwinder Singh, we provide personalized dental care for patients in Oliver and surrounding areas. Visit us at 5980 Main Street, Oliver, BC V0H 1T0.",
     url: "/",
     siteName: "SSS Dental Oliver",
     images: [
