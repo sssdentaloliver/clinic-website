@@ -30,7 +30,7 @@ export const metadata = {
     siteName: "SSS Dental Oliver",
     images: [
       {
-        url: "/doctorr.webp",
+        url: "/patient_image_for_seo.webp",
         width: 1200,
         height: 630,
       },
@@ -41,7 +41,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    images: ["/doctorr.webp"],
+    images: ["/patient_image_for_seo.webp"],
   },
 
   robots: {
@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
             url: "https://www.sssdentaloliver.com",
             telephone: "+1-250-498-2646",
             logo: "https://www.sssdentaloliver.com/logo.png",
-            image: ["https://www.sssdentaloliver.com/doctorr.webp"],
+            image: ["https://www.sssdentaloliver.com/patient_image_for_seo.webp"],
             "@id": "https://www.sssdentaloliver.com/#dentist",
 
             priceRange: "$$",
